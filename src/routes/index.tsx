@@ -170,7 +170,7 @@ function PricingPage() {
               <span className="price-period">/mes</span>
             </div>
             <ul className="features-list">
-              <li><span className="check check-vip">✓</span><span>Todo ilimitado, sin restricciones</span></li>
+              <li><span className="check check-vip">✓</span><span>Capacidad máxima en todo</span></li>
               <li><span className="check check-vip">✓</span><span>Onboarding personal: Lucía aprende quién eres desde el primer día</span></li>
               <li><span className="check check-vip">✓</span><span>Tono, estilo e intereses propios</span></li>
               <li><span className="check check-vip">✓</span><span>Recordatorios personalizados</span></li>
