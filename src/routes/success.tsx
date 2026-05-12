@@ -2,12 +2,6 @@ import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/success")({
   component: SuccessPage,
-  head: () => ({
-    meta: [
-      { title: "¡Plan activo! — Lucía" },
-      { name: "description", content: "Tu plan de Lucía está activo. Vuelve al chat para continuar." },
-    ],
-  }),
 });
 
 function SuccessPage() {
