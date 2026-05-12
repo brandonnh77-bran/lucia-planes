@@ -166,10 +166,12 @@
 
 .main-title em {
   font-style: italic;
-  background: linear-gradient(135deg, var(--luna-glow), var(--luna-gold));
+  background: linear-gradient(135deg, #ffffff 0%, #4cc6ff 45%, #00aaff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 32px rgba(76, 198, 255, 0.35);
 }
 
 .subtitle {
@@ -360,9 +362,13 @@
 .cta-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
 
 .btn-basic {
-  background: rgba(255, 255, 255, 0.07);
-  border: 0.5px solid rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+}
+.btn-basic:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .btn-luna {
