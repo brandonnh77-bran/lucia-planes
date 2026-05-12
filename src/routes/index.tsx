@@ -117,10 +117,10 @@ function PricingPage() {
               <span className="price-period">/mes</span>
             </div>
             <ul className="features-list">
-              <li><span className="check check-basic">✓</span><span>Mensajes limitados por mes</span></li>
-              <li><span className="check check-basic">✓</span><span>Solo mensajes de texto</span></li>
-              <li><span className="check check-basic">✓</span><span>Memoria de conversación</span></li>
-              <li><span className="check check-basic">✓</span><span>Acceso solo por texto</span></li>
+              <li><span className="check check-basic">✓</span><span>Mensajes de texto diarios</span></li>
+              <li><span className="check check-basic">✓</span><span>Lucía puede mandarte audios</span></li>
+              <li><span className="check check-basic">✓</span><span>Comparte imágenes con ella</span></li>
+              <li><span className="check check-basic">✓</span><span>Recuerda tus conversaciones recientes</span></li>
             </ul>
             <button
               type="button"
@@ -144,11 +144,10 @@ function PricingPage() {
               <span className="price-period">/mes</span>
             </div>
             <ul className="features-list">
-              <li><span className="check check-luna">✓</span><span>Mayor cantidad de mensajes</span></li>
-              <li><span className="check check-luna">✓</span><span>Texto, voz e imágenes</span></li>
-              <li><span className="check check-luna">✓</span><span>Memoria extendida de conversación</span></li>
-              <li><span className="check check-luna">✓</span><span>Respuestas prioritarias</span></li>
-              <li><span className="check check-luna">✓</span><span>Lucía te recuerda entre sesiones</span></li>
+              <li><span className="check check-luna">✓</span><span>Mensajes, audios e imágenes sin límite</span></li>
+              <li><span className="check check-luna">✓</span><span>Lucía te manda audios cuando quiere expresarse</span></li>
+              <li><span className="check check-luna">✓</span><span>Recordatorios personalizados</span></li>
+              <li><span className="check check-luna">✓</span><span>Memoria extendida — Lucía te recuerda entre sesiones</span></li>
             </ul>
             <button
               type="button"
@@ -171,11 +170,11 @@ function PricingPage() {
               <span className="price-period">/mes</span>
             </div>
             <ul className="features-list">
-              <li><span className="check check-vip">✓</span><span>Máxima capacidad de mensajes</span></li>
-              <li><span className="check check-vip">✓</span><span>Texto, voz e imágenes</span></li>
+              <li><span className="check check-vip">✓</span><span>Todo ilimitado, sin restricciones</span></li>
+              <li><span className="check check-vip">✓</span><span>Onboarding personal: Lucía aprende quién eres desde el primer día</span></li>
               <li><span className="check check-vip">✓</span><span>Tono, estilo e intereses propios</span></li>
-              <li><span className="check check-vip">✓</span><span>Acceso anticipado a novedades</span></li>
-              <li><span className="check check-vip">✓</span><span>Soporte prioritario directo</span></li>
+              <li><span className="check check-vip">✓</span><span>Recordatorios personalizados</span></li>
+              <li><span className="check check-vip">✓</span><span>Memoria persistente — Lucía nunca olvida</span></li>
             </ul>
             <button
               type="button"
