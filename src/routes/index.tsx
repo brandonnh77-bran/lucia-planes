@@ -9,9 +9,9 @@ export const Route = createFileRoute("/")({
 type PlanKey = "basico" | "lucia" | "vip";
 
 const PAYMENT_LINKS: Record<PlanKey, string> = {
-  basico: "https://buy.stripe.com/28E9AT3cY4xygej5LNcEw00",
-  lucia:  "https://buy.stripe.com/dRmbJ1bJu3tu2nt6PRcEw01",
-  vip:    "https://buy.stripe.com/8x25kDbJuaVWbY3a23cEw02",
+  basico: "https://buy.stripe.com/aFa8wP6paggge6bcabcEw03",
+  lucia:  "https://buy.stripe.com/14A4gzfZKd44aTZ8XZcEw04",
+  vip:    "https://buy.stripe.com/dRmaEX5l69RS2nt5LNcEw05",
 };
 
 const LOADING_MESSAGES = [
@@ -55,7 +55,6 @@ function PricingPage() {
 
   function handleCheckout(plan: PlanKey) {
     setError(null);
-    setLoading(true);
     try {
       const checkoutRef = ref || readCheckoutParam("ref");
       const checkoutPhone = phone || readCheckoutParam("phone");
@@ -64,9 +63,8 @@ function PricingPage() {
       if (checkoutRef) url.searchParams.set("client_reference_id", checkoutRef);
       if (checkoutPhone) url.searchParams.set("prefilled_phone", checkoutPhone);
 
-      window.location.href = url.toString();
+      window.open(url.toString(), "_blank", "noopener,noreferrer");
     } catch (e) {
-      setLoading(false);
       setError(e instanceof Error ? e.message : "Algo salió mal. Intenta de nuevo.");
     }
   }
